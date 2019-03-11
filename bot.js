@@ -532,9 +532,129 @@ client.on('message', async message => {
     if (command === 'mom brain') {
 	message.reply('https://www.ssbwiki.com/Mother_Brain')
     }
-    if (command === '') {
-	message.reply('https://www.ssbwiki.com/')
+    if (command === 'nightmare') {
+	message.reply('https://www.ssbwiki.com/Nightmare')
     }
-    
+    if (command === 'nikki') {
+	message.reply('https://www.ssbwiki.com/Nikki')
+    }
+    if (command === 'nintendog') {
+	message.reply('https://www.ssbwiki.com/Nintendog')
+    }
+    if (command === 'toy poodle') {
+	message.reply('https://www.ssbwiki.com/Nintendog')
+    }
+    if (command === 'phosphora') {
+	message.reply('https://www.ssbwiki.com/Phosphora')
+    }
+    if (command === 'rathalos') {
+	message.reply('https://www.ssbwiki.com/Rathalos')
+    }
+    if (command === 'riki') {
+	message.reply('https://www.ssbwiki.com/Riki')
+    }
+    if (command === 'rodin') {
+	message.reply('https://www.ssbwiki.com/Rodin')
+    }
+    if (command === 'sable prince') {
+	message.reply('https://www.ssbwiki.com/Sablé_Prince')
+    }
+    if (command === 'sablé prince') {
+	message.reply('https://www.ssbwiki.com/Sablé_Prince')
+    }
+    if (command === 'samurai goroh') {
+	message.reply(https://www.ssbwiki.com/Samurai_Goroh')
+    }	      
+    if (command === 'shadow the hedgehog') {
+	message.reply(https://www.ssbwiki.com/Shadow_the_Hedgehog')
+    }
+    if (command === 'shadow') {
+	message.reply(https://www.ssbwiki.com/Shadow_the_Hedgehog')
+    }
+    if (command === 'sheriff') {
+	message.reply(https://www.ssbwiki.com/Sheriff')
+    }	   
+    if (command === 'shovel knight') {
+	message.reply(https://www.ssbwiki.com/Shovel_Knight')
+    }
+    if (command === 'skull kid') {
+	message.reply(https://www.ssbwiki.com/Skull_Kid')
+    }
+    if (command === 'spring man') {
+	message.reply(https://www.ssbwiki.com/Spring_Man')
+    }
+    if (command === 'squid sisters') {
+	message.reply(https://www.ssbwiki.com/Squid_Sisters')
+    }
+    if (command === 'callie and marie') {
+	message.reply(https://www.ssbwiki.com/Squid_Sisters')
+    }		    
+    if (command === 'callie & marie') {
+	message.reply(https://www.ssbwiki.com/Squid_Sisters')
+    }
+    if (command === 'starfy') {
+	message.reply(https://www.ssbwiki.com/Starfy')
+    }
+    if (command === 'stafy') {
+	message.reply(https://www.ssbwiki.com/Starfy')
+    }
+    if (command === 'starman') {
+	message.reply(https://www.ssbwiki.com/Starman_(EarthBound)')
+    }
+    if (command === 'sukapon') {
+	message.reply(https://www.ssbwiki.com/Sukapon')
+    }
+    if (command === 'takamaru') {
+	message.reply(https://www.ssbwiki.com/Takamaru')
+    }
+    if (command === 'tiki') {
+	message.reply(https://www.ssbwiki.com/Tiki')
+    }
+    if (command === 'thwomp') {
+	message.reply(https://www.ssbwiki.com/Thwomp')
+    }		   
+    if (command === 'vince') {
+	message.reply(https://www.ssbwiki.com/Vince')
+    }
+    if (command === 'teacher vince') {
+	message.reply(https://www.ssbwiki.com/Vince')
+    }
+    if (command === 'tutor vince') {
+	message.reply(https://www.ssbwiki.com/Vince')
+    }
+    if (command === 'vincent') {
+	message.reply(https://www.ssbwiki.com/Vince')
+    }
+    if (command === 'teacher vincent') {
+	message.reply(https://www.ssbwiki.com/Vince')
+    }
+    if (command === 'tutor vincent') {
+	message.reply(https://www.ssbwiki.com/Vince')
+    }
+    if (command === 'waluigi') {
+	message.reply(https://www.ssbwiki.com/Waluigi')
+    }
+    if (command === 'wily capsule') {
+	message.reply(https://www.ssbwiki.com/Dr._Wily')
+    }		     
+    if (command === 'dr. wily') {
+	message.reply(https://www.ssbwiki.com/Dr._Wily')
+    }		      
+    if (command === 'dr wily') {
+	message.reply(https://www.ssbwiki.com/Dr._Wily')
+    }
+    if (command === 'doctor wily') {
+	message.reply(https://www.ssbwiki.com/Dr._Wily')
+    }
+    if (command === 'yuri kozukata') {
+	message.reply(https://www.ssbwiki.com/Yuri_Kozukata')
+    }
+    if (command === 'yuri') {
+	message.reply(https://www.ssbwiki.com/Yuri_Kozukata')
+    }
+    if (command === 'zero') {
+	message.reply(https://www.ssbwiki.com/Zero_(Mega_Man)')
+    }
+});
 
-    
+client.login(process.argv[2])
