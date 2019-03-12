@@ -25,40 +25,40 @@ client.on('message', async message => {
     if (command === 'daisy') {
 	message.reply('https://www.ssbwiki.com/Daisy_(SSBU)')
     }
-    if (command === 'dr. mario') {
+    if (message.content === '!ssb dr. mario') {
 	message.reply('https://www.ssbwiki.com/Dr._Mario_(SSBU)')
     }
-    if (command === 'rosalina & luma') {
+    if (message.content === '!ssb rosalina & luma') {
     message.reply('https://www.ssbwiki.com/Rosalina_%26_Luma_(SSBU)')
     }
-    if (command === 'piranha plant') {
+    if (message.content === '!ssb piranha plant') {
 	message.reply('https://www.ssbwiki.com/Piranha_Plant_(SSBU)')
     }
     if (command === 'bowser') {
 	message.reply('https://www.ssbwiki.com/Bowser_(SSBU)')
     }
-    if (command === 'bowser jr.') {
+    if (message.content === '!ssb bowser jr.') {
 	message.reply('https://www.ssbwiki.com/Bowser_Jr._(SSBU)')
     }
-     if (command === 'larry koopa') {
+     if (message.content === '!ssb larry koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Larry_Koopa')
     }
-    if (command === 'roy koopa') {
+    if (message.content === '!ssb roy koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Roy_Koopa')
     }
-     if (command === 'wendy o. koopa') {
+     if (message.content === '!ssb wendy o. koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Wendy_O._Koopa')
      }
-    if (command === 'iggy koopa') {
+    if (message.content === '!ssb iggy koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Iggy_Koopa')
     }
-    if (command === 'morton koopa jr.') {
+    if (message.content === '!ssb morton koopa jr.') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Morton_Koopa_Jr.')
     }
-    if (command === 'lemmy koopa') {
+    if (message.content === '!ssb lemmy koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Lemmy_Koopa')
     }
-    if (command === 'ludwig von koopa') {
+    if (message.content === '!ssb ludwig von koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Ludwig_von_Koopa')
     }
     if (command === 'koopalings') {
@@ -67,13 +67,13 @@ client.on('message', async message => {
     if (command === 'yoshi') {
 	message.reply('https://www.ssbwiki.com/Yoshi_(SSBU)')
     }
-    if (command === 'donkey kong') {
+    if (message.content === '!ssb donkey kong') {
 	message.reply('https://www.ssbwiki.com/Donkey_Kong_(SSBU)')
     }
-    if (command === 'diddy kong') {
+    if (message.content === '!ssb diddy kong') {
 	message.reply('https://www.ssbwiki.com/Diddy_Kong_(SSBU)')
     }
-    if (command === 'king k. rool') {
+    if (message.content === '!ssb king k. rool') {
 	message.reply('https://www.ssbwiki.com/King_K._Rool_(SSBU)')
     }
     if (command === 'link') {
@@ -85,22 +85,22 @@ client.on('message', async message => {
     if (command === 'sheik') {
 	message.reply('https://www.ssbwiki.com/Sheik_(SSBU)')
     }
-    if (command === 'young link') {
+    if (message.content === '!ssb young link') {
 	message.reply('https://www.ssbwiki.com/Young_Link_(SSBU)')
     }
     if (command === 'ganondorf') {
 	message.reply('https://www.ssbwiki.com/Ganondorf_(SSBU)')
     }
-    if (command === 'toon link') {
+    if (message.content === '!ssb toon link') {
 	message.reply('https://www.ssbwiki.com/Toon_Link_(SSBU)')
     }
     if (command === 'samus') {
 	message.reply('https://www.ssbwiki.com/Samus_(SSBU)')
     }
-    if (command === 'dark samus') {
+    if (message.content === '!ssb dark samus') {
 	message.reply('https://www.ssbwiki.com/Dark_Samus_(SSBU)')
     }
-    if (command === 'zero suit samus') {
+    if (message.content === '!ssb zero suit samus') {
 	message.reply('https://www.ssbwiki.com/Zero_Suit_Samus_(SSBU)')
     }
     if (command === 'ridley') {
@@ -109,10 +109,10 @@ client.on('message', async message => {
     if (command === 'kirby') {
 	message.reply('https://www.ssbwiki.com/Kirby_(SSBU)')
     }
-    if (command === 'meta knight') {
+    if (message.content === '!ssb meta knight') {
 	message.reply('https://www.ssbwiki.com/Meta_Knight_(SSBU)')
     }
-    if (command === 'king dedede') {
+    if (message.content === '!ssb king dedede') {
 	message.reply('https://www.ssbwiki.com/King_Dedede_(SSBU)')
     }
     if (command === 'fox') {
@@ -136,7 +136,7 @@ client.on('message', async message => {
     if (command === 'mewtwo') {
 	message.reply('https://www.ssbwiki.com/Mewtwo_(SSBU)')
     }
-    if (command === 'pokemon trainer') {
+    if (message.content === '!ssb pokemon trainer') {
 	message.reply('https://www.ssbwiki.com/Pokémon_Trainer_(SSBU)')
     }
     if (command === 'squirtle') {
@@ -157,7 +157,7 @@ client.on('message', async message => {
     if (command === 'incineroar') {
 	message.reply('https://www.ssbwiki.com/Incineroar_(SSBU)')
     }
-    if (command === 'captain falcon') {
+    if (message.content === '!ssb captain falcon') {
 	message.reply('https://www.ssbwiki.com/Captain_Falcon_(SSBU)')
     }
     if (command === 'ness') {
@@ -166,7 +166,7 @@ client.on('message', async message => {
     if (command === 'lucas') {
 	message.reply('https://www.ssbwiki.com/Lucas_(SSBU)')
     }
-    if (command === 'ice climbers') {
+    if (message.content === '!ssb ice climbers') {
 	message.reply('https://www.ssbwiki.com/Ice_Climbers_(SSBU)')
     }
     if (command === 'marth') {
@@ -190,22 +190,22 @@ client.on('message', async message => {
     if (command === 'corrin') {
 	message.reply('https://www.ssbwiki.com/Corrin_(SSBU)')
     }
-    if (command === 'mr. game & watch') {
+    if (message.content === '!ssb mr. game & watch') {
 	message.reply('https://www.ssbwiki.com/Mr._Game_%26_Watch_(SSBU)')
     }
-    if (command === 'mr game & watch') {
+    if (message.content === '!ssb mr game & watch') {
 	message.reply('https://www.ssbwiki.com/Mr._Game_%26_Watch_(SSBU)')
     }
-    if (command === 'mr. game and watch') {
+    if (message.content === '!ssb mr. game and watch') {
 	message.reply('https://www.ssbwiki.com/Mr._Game_%26_Watch_(SSBU)')
     }
-    if (command === 'mr game and watch') {
+    if (message.content === '!ssb mr game and watch') {
 	message.reply('https://www.ssbwiki.com/Mr._Game_%26_Watch_(SSBU)')
     }
     if (command === 'pit') {
 	message.reply('https://www.ssbwiki.com/Pit_(SSBU)')
     }
-    if (command === 'dark pit') {
+    if (message.content === '!ssb dark pit') {
 	message.reply('https://www.ssbwiki.com/Dark_Pit_(SSBU)')
     }
     if (command === 'palutena') {
@@ -235,34 +235,34 @@ client.on('message', async message => {
     if (command === 'isabelle') {
 	message.reply('https://www.ssbwiki.com/Isabelle_(SSBU)')
     }
-    if (command === 'wii fit trainer') {
+    if (message.content === '!ssb wii fit trainer') {
 	message.reply('https://www.ssbwiki.com/Wii_Fit_Trainer_(SSBU)')
     }
-    if (command === 'little mac') {
+    if (message.content === '!ssb little mac') {
 	message.reply('https://www.ssbwiki.com/Little_Mac_(SSBU)')
     }
     if (command === 'shulk') {
 	message.reply('https://www.ssbwiki.com/Shulk_(SSBU)')
     }
-    if (command === 'duck hunt duo') {
+    if (message.content === '!ssb duck hunt duo') {
 	message.reply('https://www.ssbwiki.com/Duck_Hunt_(SSBU)')
     }
-    if (command === 'duck hunt') {
+    if (message.content === '!ssb duck hunt') {
 	message.reply('https://www.ssbwiki.com/Duck_Hunt_(SSBU)')
     }
     if (command === 'snake') {
 	message.reply('https://www.ssbwiki.com/Snake_(SSBU)')
     }
-    if (command === 'solid snake') {
+    if (message.content === '!ssb solid snake') {
 	message.reply('https://www.ssbwiki.com/Snake_(SSBU)')
     }
     if (command === 'sonic') {
 	message.reply('https://www.ssbwiki.com/Sonic_(SSBU)')
     }
-    if (command === 'sonic the hedgehog') {
+    if (message.content === '!ssb sonic the hedgehog') {
 	message.reply('https://www.ssbwiki.com/Sonic_(SSBU)')
     }
-    if (command === 'mega man') {
+    if (message.content === '!ssb mega man') {
 	message.reply('https://www.ssbwiki.com/Mega_Man_(SSBU)')
     }
     if (command === 'megaman') {
@@ -274,7 +274,7 @@ client.on('message', async message => {
     if (command === 'pacman') {
 	message.reply('https://www.ssbwiki.com/Pac-Man_(SSBU)')
     }
-    if (command === 'pac man') {
+    if (message.content === '!ssb pac man') {
 	message.reply('https://www.ssbwiki.com/Pac-Man_(SSBU)')
     }
     if (command === 'ryu') {
@@ -286,37 +286,37 @@ client.on('message', async message => {
     if (command === 'cloud') {
 	message.reply('https://www.ssbwiki.com/Cloud_(SSBU)')
     }
-    if (command === 'cloud strife') {
+    if (message.content === '!ssb cloud strife') {
 	message.reply('https://www.ssbwiki.com/Cloud_(SSBU)')
     }
     if (command === 'bayonetta') {
 	message.reply('https://www.ssbwiki.com/Bayonetta_(SSBU)')
     }
-    if (command === 'mii brawler') {
+    if (message.content === '!ssb mii brawler') {
 	message.reply('https://www.ssbwiki.com/Mii_Brawler_(SSBU)')
     }
-    if (command === 'mii swordfighter') {
+    if (message.content === '!ssb mii swordfighter') {
 	message.reply('https://www.ssbwiki.com/Mii_Swordfighter_(SSBU)')
     }
-    if (command === 'mii gunner') {
+    if (message.content === '!ssb mii gunner') {
 	message.reply('https://www.ssbwiki.com/Mii_Gunner_(SSBU)')
     }
     if (command === 'mii') {
 	message.reply('https://www.ssbwiki.com/Mii_Fighter_(SSBU)')
     }
-    if (command === 'mii fighter') {
+    if (message.content === '!ssb mii fighter') {
 	message.reply('https://www.ssbwiki.com/Mii_Fighter_(SSBU)')
     }
     if (command === 'inkling') {
 	message.reply('https://www.ssbwiki.com/Inkling_(SSBU)')
     }
-    if (command === 'simon belmont') {
+    if (message.content === '!ssb simon belmont') {
 	message.reply('https://www.ssbwiki.com/Simon_(SSBU)')
     }
     if (command === 'simon') {
 	message.reply('https://www.ssbwiki.com/Simon_(SSBU)')
     }
-    if (command === 'richter belmont') {
+    if (message.content === '!ssb richter belmont') {
 	message.reply('https://www.ssbwiki.com/Richter_(SSBU)')
     }
     if (command === 'richter') {
@@ -328,40 +328,40 @@ client.on('message', async message => {
     if (command === 'akira') {
 	message.reply('https://www.ssbwiki.com/Akira')
     }
-    if (command === 'akira yuki') {
+    if (message.content === '!ssb akira yuki') {
 	message.reply('https://www.ssbwiki.com/Akira_Yuki')
     }
     if (command === 'alucard') {
 	message.reply('https://www.ssbwiki.com/Alucard')
     }
-    if (command === 'son of dracula') {
+    if (message.content === '!ssb son of dracula') {
 	message.reply('https://www.ssbwiki.com/Alucard')
     }
     if (command === 'andross') {
 	message.reply('https://www.ssbwiki.com/Andross')
     }
-    if (command === 'arcade bunny') {
+    if (message.content === '!ssb arcade bunny') {
 	message.reply('https://www.ssbwiki.com/Arcade_Bunny')
     }
     if (command === 'ashley') {
 	message.reply('https://www.ssbwiki.com/Ashley')
     }
-    if (command === 'black knight') {
+    if (message.content === '!ssb black knight') {
 	message.reply('https://www.ssbwiki.com/Black_Knight')
     }
-    if (command === 'the black knight') {
+    if (message.content === '!ssb the black knight') {
 	message.reply('https://www.ssbwiki.com/Black_Knight')
     }
     if (command === 'bomberman') {
 	message.reply('https://www.ssbwiki.com/Bomberman')
     }
-    if (command === 'white bomberman') {
+    if (message.content === '!ssb white bomberman') {
 	message.reply('https://www.ssbwiki.com/Bomberman')
     }
-    if (command === 'burrowing snagret') {
+    if (message.content === '!ssb burrowing snagret') {
 	message.reply('https://www.ssbwiki.com/Burrowing_Snagret')
     }
-    if (command === 'chain chomp') {
+    if (message.content === '!ssb chain chomp') {
 	message.reply('https://www.ssbwiki.com/Chain_Chomp')
     }
     if (command === 'chainchomp') {
@@ -370,22 +370,22 @@ client.on('message', async message => {
     if (command === 'chain-chomp') {
 	message.reply('https://www.ssbwiki.com/Chain_Chomp')
     }
-    if (command === 'chef kawasaki') {
+    if (message.content === '!ssb chef kawasaki') {
 	message.reply('https://www.ssbwiki.com/Chef_Kawasaki')
     }
-    if (command === 'cook kawasaki') {
+    if (message.content === '!ssb cook kawasaki') {
 	message.reply('https://www.ssbwiki.com/Chef_Kawasaki')
     }
-    if (command === 'color tv-game 15') {
+    if (message.content === '!ssb color tv-game 15') {
 	message.reply('https://www.ssbwiki.com/Color_TV-Game_15')
     }
-    if (command === 'color tv game 15') {
+    if (message.content === '!ssb color tv game 15') {
 	message.reply('https://www.ssbwiki.com/Color_TV-Game_15')
     }
-    if (command === 'colour tv-game 15') {
+    if (message.content === '!ssb colour tv-game 15') {
 	message.reply('https://www.ssbwiki.com/Color_TV-Game_15')
     }
-    if (command === 'colour tv game 15') {
+    if (message.content === '!ssb colour tv game 15') {
 	message.reply('https://www.ssbwiki.com/Color_TV-Game_15')
     }
     if (command === 'pong') {
@@ -400,40 +400,40 @@ client.on('message', async message => {
     if (command === 'dillon') {
 	message.reply('https://www.ssbwiki.com/Dillon')
     }
-    if (command === 'dr. kawashima') {
+    if (message.content === '!ssb dr. kawashima') {
 	message.reply('https://www.ssbwiki.com/Dr._Kawashima')
     }
-    if (command === 'dr kawashima') {
+    if (message.content === '!ssb dr kawashima') {
 	message.reply('https://www.ssbwiki.com/Dr._Kawashima')
     }
-    if (command === 'doctor kawashima') {
+    if (message.content === '!ssb doctor kawashima') {
 	message.reply('https://www.ssbwiki.com/Dr._Kawashima')
     }
-    if (command === 'ryuta kawashima') {
+    if (message.content === '!ssb ryuta kawashima') {
 	message.reply('https://www.ssbwiki.com/Dr._Kawashima')
     }
-    if (command === 'host of the brain age series') {
+    if (message.content === '!ssb host of the brain age series') {
 	message.reply('https://www.ssbwiki.com/Dr._Kawashima')
     }
-    if (command === 'dr. wright') {
+    if (message.content === '!ssb dr. wright') {
 	message.reply('https://www.ssbwiki.com/Dr._Wright')
     }
-    if (command === 'dr wright') {
+    if (message.content === '!ssb dr wright') {
 	message.reply('https://www.ssbwiki.com/Dr._Wright')
     }
-    if (command === 'doctor wright') {
+    if (message.content === '!ssb doctor wright') {
 	message.reply('https://www.ssbwiki.com/Dr._Wright')
     }
-    if (command === 'flies & hand') {
+    if (message.content === '!ssb flies & hand') {
 	message.reply('https://www.ssbwiki.com/Flies_%26_Hand')
     }
-    if (command === 'hand & flies') {
+    if (message.content === '!ssb hand & flies') {
 	message.reply('https://www.ssbwiki.com/Flies_%26_Hand')
     }
-    if (command === 'flies and hand') {
+    if (message.content === '!ssb flies and hand') {
 	message.reply('https://www.ssbwiki.com/Flies_%26_Hand')
     }
-    if (command === 'hand and flies') {
+    if (message.content === '!ssb hand and flies') {
 	message.reply('https://www.ssbwiki.com/Flies_%26_Hand')
     }
     if (command === 'ghirahim') {
@@ -442,46 +442,46 @@ client.on('message', async message => {
     if (command === 'ghosts') {
 	message.reply('https://www.ssbwiki.com/Ghosts')
     }
-    if (command === 'ghosts from pac-man') {
+    if (message.content === '!ssb ghosts from pac-man') {
 	message.reply('https://www.ssbwiki.com/Ghosts')
     }
-    if (command === 'blinky, pinky, inky, and clyde') {
+    if (message.content === '!ssb blinky, pinky, inky, and clyde') {
 	message.reply('https://www.ssbwiki.com/Ghosts')
     }
-    if (command === 'blinky, pinky, inky and clyde') {
+    if (message.content === '!ssb blinky, pinky, inky and clyde') {
 	message.reply('https://www.ssbwiki.com/Ghosts')
     }
-    if (command === 'blinky pinky inky and clyde') {
+    if (message.content === '!ssb blinky pinky inky and clyde') {
 	message.reply('https://www.ssbwiki.com/Ghosts')
     }
-    if (command === 'gray fox') {
+    if (message.content === '!ssb gray fox') {
 	message.reply('https://www.ssbwiki.com/Gray_Fox')
     }
-    if (command === 'grey fox') {
+    if (message.content === '!ssb grey fox') {
 	message.reply('https://www.ssbwiki.com/Gray_Fox')
     }
     if (command === 'guile') {
 	message.reply('https://www.ssbwiki.com/Guile')
     }
-    if (command === 'hammer bro') {
+    if (message.content === '!ssb hammer bro') {
 	message.reply('https://www.ssbwiki.com/Hammer_Bro')
     }
-    if (command === 'hammer brother') {
+    if (message.content === '!ssb hammer brother') {
 	message.reply('https://www.ssbwiki.com/Hammer_Bro')
     }
-    if (command === 'hammer koopa') {
+    if (message.content === '!ssb hammer koopa') {
 	message.reply('https://www.ssbwiki.com/Hammer_Bro')
     }
     if (command === 'isaac') {
 	message.reply('https://www.ssbwiki.com/Isaac')
     }
-    if (command === 'isaac from golden sun') {
+    if (message.content === '!ssb isaac from golden sun') {
 	message.reply('https://www.ssbwiki.com/Isaac')
     }
     if (command === 'jeff') {
 	message.reply('https://www.ssbwiki.com/Jeff')
     }
-    if (command === 'jeff andonuts') {
+    if (message.content === '!ssb jeff andonuts') {
 	message.reply('https://www.ssbwiki.com/Jeff')
     }
     if (command === "kapp'n") {
@@ -493,16 +493,16 @@ client.on('message', async message => {
     if (command === 'klaptrap') {
 	message.reply('https://www.ssbwiki.com/Klaptrap')
     }
-    if (command === 'knuckle joe') {
+    if (message.content === '!ssb knuckle joe') {
 	message.reply('https://www.ssbwiki.com/Knuckle_Joe')
     }
     if (command === 'knuckles') {
 	message.reply('https://www.ssbwiki.com/Knuckles_the_Echidna')
     }
-    if (command === 'knuckles the echidna') {
+    if (message.content === '!ssb knuckles the echidna') {
 	message.reply('https://www.ssbwiki.com/Knuckles_the_Echidna')
     }
-    if (command === 'knuckles echidna') {
+    if (message.content === '!ssb knuckles echidna') {
 	message.reply('https://www.ssbwiki.com/Knuckles_the_Echidna')
     }
     if (command === 'krystal') {
@@ -523,13 +523,13 @@ client.on('message', async message => {
     if (command === 'moon') {
 	message.reply('https://www.ssbwiki.com/Moon')
     }	
-    if (command === 'mother brain') {
+    if (message.content === '!ssb mother brain') {
 	message.reply('https://www.ssbwiki.com/Mother_Brain')
     }
-    if (command === 'mommy brain') {
+    if (message.content === '!ssb mommy brain') {
 	message.reply('https://www.ssbwiki.com/Mother_Brain')
     }
-    if (command === 'mom brain') {
+    if (message.content === '!ssb mom brain') {
 	message.reply('https://www.ssbwiki.com/Mother_Brain')
     }
     if (command === 'nightmare') {
@@ -541,7 +541,7 @@ client.on('message', async message => {
     if (command === 'nintendog') {
 	message.reply('https://www.ssbwiki.com/Nintendog')
     }
-    if (command === 'toy poodle') {
+    if (message.content === '!ssb toy poodle') {
 	message.reply('https://www.ssbwiki.com/Nintendog')
     }
     if (command === 'phosphora') {
@@ -556,16 +556,16 @@ client.on('message', async message => {
     if (command === 'rodin') {
 	message.reply('https://www.ssbwiki.com/Rodin')
     }
-    if (command === 'sable prince') {
+    if (message.content === '!ssb sable prince') {
 	message.reply('https://www.ssbwiki.com/Sablé_Prince')
     }
-    if (command === 'sablé prince') {
+    if (message.content === '!ssb sablé prince') {
 	message.reply('https://www.ssbwiki.com/Sablé_Prince')
     }
-    if (command === 'samurai goroh') {
+    if (message.content === '!ssb samurai goroh') {
 	message.reply('https://www.ssbwiki.com/Samurai_Goroh')
     }	      
-    if (command === 'shadow the hedgehog') {
+    if (message.content === '!ssb shadow the hedgehog') {
 	message.reply('https://www.ssbwiki.com/Shadow_the_Hedgehog')
     }
     if (command === 'shadow') {
@@ -574,22 +574,22 @@ client.on('message', async message => {
     if (command === 'sheriff') {
 	message.reply('https://www.ssbwiki.com/Sheriff')
     }	   
-    if (command === 'shovel knight') {
+    if (message.content === '!ssb shovel knight') {
 	message.reply('https://www.ssbwiki.com/Shovel_Knight')
     }
-    if (command === 'skull kid') {
+    if (message.content === '!ssb skull kid') {
 	message.reply('https://www.ssbwiki.com/Skull_Kid')
     }
-    if (command === 'spring man') {
+    if (message.content === '!ssb spring man') {
 	message.reply('https://www.ssbwiki.com/Spring_Man')
     }
-    if (command === 'squid sisters') {
+    if (message.content === '!ssb squid sisters') {
 	message.reply('https://www.ssbwiki.com/Squid_Sisters')
     }
-    if (command === 'callie and marie') {
+    if (message.content === '!ssb callie and marie') {
 	message.reply('https://www.ssbwiki.com/Squid_Sisters')
     }		    
-    if (command === 'callie & marie') {
+    if (message.content === '!ssb callie & marie') {
 	message.reply('https://www.ssbwiki.com/Squid_Sisters')
     }
     if (command === 'starfy') {
@@ -616,45 +616,207 @@ client.on('message', async message => {
     if (command === 'vince') {
 	message.reply('https://www.ssbwiki.com/Vince')
     }
-    if (command === 'teacher vince') {
+    if (message.content === '!ssb teacher vince') {
 	message.reply('https://www.ssbwiki.com/Vince')
     }
-    if (command === 'tutor vince') {
+    if (message.content === '!ssb tutor vince') {
 	message.reply('https://www.ssbwiki.com/Vince')
     }
     if (command === 'vincent') {
 	message.reply('https://www.ssbwiki.com/Vince')
     }
-    if (command === 'teacher vincent') {
+    if (message.content === '!ssb teacher vincent') {
 	message.reply('https://www.ssbwiki.com/Vince')
     }
-    if (command === 'tutor vincent') {
+    if (message.content === '!ssb tutor vincent') {
 	message.reply('https://www.ssbwiki.com/Vince')
     }
     if (command === 'waluigi') {
 	message.reply('https://www.ssbwiki.com/Waluigi')
     }
-    if (command === 'wily capsule') {
+    if (message.content === '!ssb wily capsule') {
 	message.reply('https://www.ssbwiki.com/Dr._Wily')
     }		     
-    if (command === 'dr. wily') {
+    if (message.content === '!ssb dr. wily') {
 	message.reply('https://www.ssbwiki.com/Dr._Wily')
     }		      
-    if (command === 'dr wily') {
+    if (message.content === '!ssb dr wily') {
 	message.reply('https://www.ssbwiki.com/Dr._Wily')
     }
-    if (command === 'doctor wily') {
+    if (message.content === '!ssb doctor wily') {
 	message.reply('https://www.ssbwiki.com/Dr._Wily')
     }
-    if (command === 'yuri kozukata') {
+    if (command === '!ssb yuri kozukata') {
 	message.reply('https://www.ssbwiki.com/Yuri_Kozukata')
     }
     if (command === 'yuri') {
 	message.reply('https://www.ssbwiki.com/Yuri_Kozukata')
     }
-    if (command === 'zero') {
+    if (message.content === '!ssb zero') {
 	message.reply('https://www.ssbwiki.com/Zero_(Mega_Man)')
+    } // Stages
+    if (command === 'battlefield') {
+	message.reply('https://www.ssbwiki.com/Battlefield_(SSBU)')
     }
+    if (message.content === '!ssb big battlefield') {
+	message.reply('https://www.ssbwiki.com/Big_Battlefield_(SSBU)')
+    }
+    if (message.content === "!ssb dracula's castle") {
+	message.reply('https://www.ssbwiki.com/Dracula%27s_Castle')
+    }
+    if (message.content === '!ssb final destination') {
+	message.reply('https://www.ssbwiki.com/Final_Destination_(SSBU)')
+    }
+    if (message.content === '!ssb great plateau tower') {
+	message.reply('https://www.ssbwiki.com/Great_Plateau_Tower')
+    }
+    if (message.content === '!ssb moray towers') {
+	message.reply('https://www.ssbwiki.com/Moray_Towers')
+    }
+    if (message.content === '!ssb new donk city hall') {
+	message.reply('https://www.ssbwiki.com/New_Donk_City_Hall')
+    }
+    if (message.content === '!ssb dream land') {
+	message.reply('https://www.ssbwiki.com/Dream_Land_(SSB)')
+    }
+    if (message.content === "!ssb peach's castle") {
+	message.reply('https://www.ssbwiki.com/Peach%27s_Castle')
+    }
+    if (message.content === '!ssb hyrule castle') {
+	message.reply('https://www.ssbwiki.com/Hyrule_Castle')
+    }
+    if (message.content === '!ssb kongo jungle') {
+	message.reply('https://www.ssbwiki.com/Kongo_Jungle_(SSB)')
+    }
+    if (message.content === '!ssb mushroom kingdom') {
+	message.reply('https://www.ssbwiki.com/Mushroom_Kingdom_(SSB)')
+    }
+    if (message.content === '!ssb saffron city') {
+	message.reply('https://www.ssbwiki.com/Saffron_City')
+    }
+    if (message.content === '!ssb super happy tree') {
+	message.reply('https://www.ssbwiki.com/Super_Happy_Tree')
+    }
+    if (message.content === '!ssb big blue') {
+	message.reply('https://www.ssbwiki.com/Big_Blue')
+    }
+    if (command === 'brinstar') {
+	message.reply('https://www.ssbwiki.com/Brinstar')
+    }
+    if (message.content === '!ssb brinstar depths') {
+	message.reply('https://www.ssbwiki.com/Brinstar_Depths')
+    }
+    if (command === 'corneria') {
+	message.reply('https://www.ssbwiki.com/Corneria')
+    }
+    if (message.content === '!ssb fountain of dreams') {
+	message.reply('https://www.ssbwiki.com/Fountain_of_Dreams')
+    }
+    if (command === 'fourside') {
+	message.reply('https://www.ssbwiki.com/Fourside')
+    }
+    if (message.content === '!ssb great bay') {
+	message.reply('https://www.ssbwiki.com/Great_Bay')
+    }
+    if (message.content === '!ssb green greens') {
+	message.reply('https://www.ssbwiki.com/Green_Greens')
+    }
+    if (message.content === '!ssb jungle japes') {
+	message.reply('https://www.ssbwiki.com/Jungle_Japes')
+    }
+    if (message.content === '!ssb kongo falls') {
+	message.reply('https://www.ssbwiki.com/Kongo_Falls')
+    }
+    if (message.content === '!ssb mushroom kingdom II') {
+	message.reply('https://www.ssbwiki.com/Mushroom_Kingdom_II')
+    }
+    if (message.content === '!ssb mushroom kingdom 2') {
+	message.reply('https://www.ssbwiki.com/Mushroom_Kingdom_II')
+    }
+    if (command === 'onett') {
+	message.reply('https://www.ssbwiki.com/Onett')
+    }
+    if (message.content === '!ssb pokemon stadium') {
+	message.reply('https://www.ssbwiki.com/Pokémon_Stadium')
+    }
+    if (message.content === '!ssb pokémon stadium') {
+	message.reply('https://www.ssbwiki.com/Pokémon_Stadium')
+    }
+    if (message.content === "!ssb princess peach's castle") {
+	message.reply('https://www.ssbwiki.com/Princess_Peach%27s_Castle')
+    }
+    if (message.content === '!ssb rainbow cruise') {
+	message.reply('https://www.ssbwiki.com/Rainbow_Cruise')
+    }
+    if (command === 'temple') {
+	message.reply('https://www.ssbwiki.com/Temple')
+    }
+    if (command === 'venom') {
+	message.reply('https://www.ssbwiki.com/Venom')
+    }
+    if (message.content === "!ssb yoshi's island (melee)") {
+	message.reply('https://www.ssbwiki.com/Yoshi%27s_Island_(SSBM)')
+    }
+    if (message.content === "!ssb yoshi's story") {
+	message.reply('https://www.ssbwiki.com/Yoshi%27s_Story')
+    }
+    if (command === "75m") {
+	message.reply('https://www.ssbwiki.com/75m')
+    }
+    if (message.content === "!ssb 75 m") {
+	message.reply('https://www.ssbwiki.com/75m')
+    }
+    if (message.content === "!ssb bridge of eldin") {
+	message.reply('https://www.ssbwiki.com/Bridge_of_Eldin')
+    }
+    if (message.content === "!ssb castle siege") {
+	message.reply('https://www.ssbwiki.com/Castle_Siege')
+    }
+    if (message.content === "!ssb delfino plaza") {
+	message.reply('https://www.ssbwiki.com/Delfino_Plaza')
+    }
+    if (message.content === "!ssb distant planet") {
+	message.reply('https://www.ssbwiki.com/Distant_Planet')
+    }	
+    if (message.content === "!ssb frigate orpheon") {
+	message.reply('https://www.ssbwiki.com/Frigate_Orpheon')
+    }
+    if (message.content === "!ssb green hill zone") {
+	message.reply('https://www.ssbwiki.com/Green_Hill_Zone')
+    }
+    if (command === "halberd") {
+	message.reply('https://www.ssbwiki.com/Halberd')
+    }
+    if (command === "hanenbow") {
+	message.reply('https://www.ssbwiki.com/Hanenbow')
+    }
+    if (message.content === "!ssb luigi's mansion") {
+	message.reply('https://www.ssbwiki.com/Luigi%27s_Mansion')
+    }
+    if (message.content === "!ssb lylat cruise") {
+	message.reply('https://www.ssbwiki.com/Lylat_Cruise')
+    }
+    if (message.content === "!ssb mushroomy kingdom") {
+	message.reply('https://www.ssbwiki.com/Mushroomy_Kingdom')
+    }
+    if (message.content === "!ssb mario bros.") {
+	message.reply('https://www.ssbwiki.com/Mario_Bros.')
+    }
+    if (message.content === "!ssb mario bros") {
+	message.reply('https://www.ssbwiki.com/Mario_Bros.')
+    }
+    if (message.content === "!ssb new pork city") {
+	message.reply('https://www.ssbwiki.com/New_Pork_City')
+    }
+    if (command === "norfair") {
+	message.reply('https://www.ssbwiki.com/Norfair')
+    }
+    if (message.content === "!ssb figure-8 circuit") {
+	message.reply('https://www.ssbwiki.com/Figure-8_Circuit')
+    }
+    if (message.content === "!ssb pirate ship") {
+	message.reply('https://www.ssbwiki.com/Pirate_Ship')
+    }	
 });
 
 client.login(process.argv[2])
