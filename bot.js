@@ -61,13 +61,19 @@ client.on('message', async message => {
     if (message.content === '!ssb roy koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Roy_Koopa')
     }
-     if (message.content === '!ssb wendy o. koopa') {
+    if (message.content === '!ssb wendy o. koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Wendy_O._Koopa')
-     }
+    }
+    if (message.content === '!ssb wendy o koopa') {
+	message.reply('https://www.ssbwiki.com/Koopalings#Wendy_O._Koopa')
+    }
     if (message.content === '!ssb iggy koopa') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Iggy_Koopa')
     }
     if (message.content === '!ssb morton koopa jr.') {
+	message.reply('https://www.ssbwiki.com/Koopalings#Morton_Koopa_Jr.')
+    }
+    if (message.content === '!ssb morton koopa jr') {
 	message.reply('https://www.ssbwiki.com/Koopalings#Morton_Koopa_Jr.')
     }
     if (message.content === '!ssb lemmy koopa') {
@@ -90,6 +96,9 @@ client.on('message', async message => {
     }
     if (message.content === '!ssb king k. rool') {
 	message.reply('https://www.ssbwiki.com/King_K._Rool_(SSBU)')
+    }
+    if (message.content === '!ssb king k rool') {
+    message.reply('https://www.ssbwiki.com/King_K._Rool_(SSBU)')
     }
     if (command === 'link') {
 	message.reply('https://www.ssbwiki.com/Link_(SSBU)')
