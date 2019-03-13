@@ -1350,7 +1350,7 @@ client.on('message', async message => {
     }
     if (command === "miiverse") {
 	message.reply('https://www.ssbwiki.com/Miiverse')
-    }
+    }	
 });
 
 client.login(process.argv[2])
