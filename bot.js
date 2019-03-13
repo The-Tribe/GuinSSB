@@ -205,7 +205,7 @@ client.on('message', async message => {
     if (command === 'ike') {
 	message.reply('https://www.ssbwiki.com/Ike_(SSBU)')
     }
-    if (command === '!ssb roy') {
+    if (message.content === '!ssb roy') {
 	message.reply('https://www.ssbwiki.com/Roy_(SSBU)')
     }
     if (command === 'chrom') {
