@@ -28,7 +28,22 @@ client.on('message', async message => {
     if (message.content === '!ssb dr. mario') {
 	message.reply('https://www.ssbwiki.com/Dr._Mario_(SSBU)')
     }
+    if (message.content === '!ssb dr mario') {
+	message.reply('https://www.ssbwiki.com/Dr._Mario_(SSBU)')
+    }
+    if (message.content === '!ssb doctor mario') {
+	message.reply('https://www.ssbwiki.com/Dr._Mario_(SSBU)')
+    }
     if (message.content === '!ssb rosalina & luma') {
+    message.reply('https://www.ssbwiki.com/Rosalina_%26_Luma_(SSBU)')
+    }
+    if (message.content === '!ssb rosalina and luma') {
+    message.reply('https://www.ssbwiki.com/Rosalina_%26_Luma_(SSBU)')
+    }
+    if (message.content === '!ssb luma & rosalina') {
+    message.reply('https://www.ssbwiki.com/Rosalina_%26_Luma_(SSBU)')
+    }
+    if (message.content === '!ssb luma and rosalina') {
     message.reply('https://www.ssbwiki.com/Rosalina_%26_Luma_(SSBU)')
     }
     if (message.content === '!ssb piranha plant') {
