@@ -373,6 +373,15 @@ client.on('message', async message => {
     if (command === 'ashley') {
 	message.reply('https://www.ssbwiki.com/Ashley')
     }
+    if (command === 'bomberman') {
+	message.reply('https://www.ssbwiki.com/Bomberman')
+    }
+    if (command === 'barbara') {
+	message.reply('https://www.ssbwiki.com/Barbara')
+    }
+    if (message.content === '!ssb barbara the bat') {
+	message.reply('https://www.ssbwiki.com/Barbara')
+    }
     if (message.content === '!ssb black knight') {
 	message.reply('https://www.ssbwiki.com/Black_Knight')
     }
@@ -415,8 +424,29 @@ client.on('message', async message => {
     if (message.content === '!ssb colour tv game 15') {
 	message.reply('https://www.ssbwiki.com/Color_TV-Game_15')
     }
+    if (command === 'elecman') {
+	message.reply('https://www.ssbwiki.com/Elec_Man')
+    }
+    if (message.content === '!ssb elec man') {
+	message.reply('https://www.ssbwiki.com/Elec_Man')
+    }
+    if (command === 'excitebike') {
+	message.reply('https://www.ssbwiki.com/Excitebike')
+    }
+    if (message.content === '!ssb excite bike') {
+	message.reply('https://www.ssbwiki.com/Excitebike')
+    }
+    if (command === 'excitebikes') {
+	message.reply('https://www.ssbwiki.com/Excitebike')
+    }
+    if (message.content === '!ssb excite bikes') {
+	message.reply('https://www.ssbwiki.com/Excitebike')
+    }
     if (command === 'pong') {
 	message.reply('https://www.ssbwiki.com/Color_TV-Game_15')
+    }
+    if (message.content === '!ssb dark samus (assist trophy)') {
+	message.reply('https://www.ssbwiki.com/Dark_Samus')
     }
     if (command === 'devil') {
 	message.reply('https://www.ssbwiki.com/Devil')
@@ -463,6 +493,9 @@ client.on('message', async message => {
     if (message.content === '!ssb hand and flies') {
 	message.reply('https://www.ssbwiki.com/Flies_%26_Hand')
     }
+    if (command === 'helirin') {
+	message.reply('https://www.ssbwiki.com/Helirin')
+    }
     if (command === 'ghirahim') {
 	message.reply('https://www.ssbwiki.com/Ghirahim')
     }
@@ -499,6 +532,21 @@ client.on('message', async message => {
     if (message.content === '!ssb hammer koopa') {
 	message.reply('https://www.ssbwiki.com/Hammer_Bro')
     }
+    if (message.content === '!ssb infantry and tanks') {
+	message.reply('https://www.ssbwiki.com/Infantry_and_Tanks')
+    }
+    if (message.content === '!ssb infantry & tanks') {
+	message.reply('https://www.ssbwiki.com/Infantry_and_Tanks')
+    }
+    if (message.content === '!ssb tanks and infantry') {
+	message.reply('https://www.ssbwiki.com/Infantry_and_Tanks')
+    }
+    if (command === '!ssb tanks & infantry') {
+	message.reply('https://www.ssbwiki.com/Infantry_and_Tanks')
+    }
+    if (message.content === 'isabelle (assist trophy)') {
+	message.reply('https://www.ssbwiki.com/Isabelle')
+    }
     if (command === 'isaac') {
 	message.reply('https://www.ssbwiki.com/Isaac')
     }
@@ -511,11 +559,26 @@ client.on('message', async message => {
     if (message.content === '!ssb jeff andonuts') {
 	message.reply('https://www.ssbwiki.com/Jeff')
     }
+    if (command === 'jill') {
+	message.reply('https://www.ssbwiki.com/Jill')
+    }
     if (command === "kapp'n") {
 	message.reply('https://www.ssbwiki.com/Kapp%27n')
     }
     if (command === 'kappn') {
 	message.reply('https://www.ssbwiki.com/Kapp%27n')
+    }
+    if (message.content === '!ssb kat & ana') {
+	message.reply('https://www.ssbwiki.com/Kat_%26_Ana')
+    }
+    if (message.content === '!ssb ana & kat') {
+	message.reply('https://www.ssbwiki.com/Kat_%26_Ana')
+    }
+    if (message.content === '!ssb kat and ana') {
+	message.reply('https://www.ssbwiki.com/Kat_%26_Ana')
+    }
+    if (message.content === '!ssb ana and kat') {
+	message.reply('https://www.ssbwiki.com/Kat_%26_Ana')
     }
     if (command === 'klaptrap') {
 	message.reply('https://www.ssbwiki.com/Klaptrap')
@@ -681,6 +744,63 @@ client.on('message', async message => {
     }
     if (message.content === '!ssb zero') {
 	message.reply('https://www.ssbwiki.com/Zero_(Mega_Man)')
+    }
+    if (message.content === '!ssb lakitu and spinies') {
+	message.reply('https://www.ssbwiki.com/Lakitu_and_Spinies')
+    }
+    if (message.content === '!ssb spinies and lakitu') {
+	message.reply('https://www.ssbwiki.com/Lakitu_and_Spinies')
+    }
+    if (message.content === '!ssb lakitu & spinies') {
+	message.reply('https://www.ssbwiki.com/Lakitu_and_Spinies')
+    }
+    if (message.content === '!ssb spinies & lakitu') {
+	message.reply('https://www.ssbwiki.com/Lakitu_and_Spinies')
+    }
+    if (command === 'lakitu') {
+	message.reply('https://www.ssbwiki.com/Lakitu_and_Spinies')
+    }
+    if (command === 'spinies') {
+	message.reply('https://www.ssbwiki.com/Lakitu_and_Spinies')
+    }
+    if (message.content === '!ssb little mac (assist trophy)') {
+	message.reply('https://www.ssbwiki.com/Little_Mac')
+    }
+    if (command === 'magnus') {
+	message.reply('https://www.ssbwiki.com/Magnus')
+    }
+    if (message.content === '!ssb mr. resetti') {
+	message.reply('https://www.ssbwiki.com/Mr._Resetti')
+    }
+    if (message.content === '!ssb mr resetti') {
+	message.reply('https://www.ssbwiki.com/Mr._Resetti')
+    }
+    if (message.content === '!ssb mister resetti') {
+	message.reply('https://www.ssbwiki.com/Mr._Resetti')
+    }
+    if (message.content === '!ssb ray mk III') {
+	message.reply('https://www.ssbwiki.com/Ray_Mk_III')
+    }
+    if (message.content === '!ssb ray mk iii') {
+	message.reply('https://www.ssbwiki.com/Ray_Mk_III')
+    }
+    if (message.content === '!ssb ray mk 3') {
+	message.reply('https://www.ssbwiki.com/Ray_Mk_III')
+    }
+    if (message.content === '!ssb ray mark III') {
+	message.reply('https://www.ssbwiki.com/Ray_Mk_III')
+    }
+    if (message.content === '!ssb ray mark iii') {
+	message.reply('https://www.ssbwiki.com/Ray_Mk_III')
+    }
+    if (message.content === '!ssb ray mark 3') {
+	message.reply('https://www.ssbwiki.com/Ray_Mk_III')
+    }
+    if (message.content === '!ssb saki amamiya') {
+	message.reply('https://www.ssbwiki.com/Saki_Amamiya')
+    }
+    if (command === 'tingle') {
+	message.reply('https://www.ssbwiki.com/Tingle')
     } // Stages
     if (command === 'battlefield') {
 	message.reply('https://www.ssbwiki.com/Battlefield_(SSBU)')
