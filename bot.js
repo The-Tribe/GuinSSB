@@ -163,6 +163,9 @@ client.on('message', async message => {
     if (message.content === '!ssb pokemon trainer') {
 	message.reply('https://www.ssbwiki.com/Pokémon_Trainer_(SSBU)')
     }
+    if (message.content === '!ssb pokémon trainer') {
+	message.reply('https://www.ssbwiki.com/Pokémon_Trainer_(SSBU)')
+    }
     if (command === 'squirtle') {
 	message.reply('https://www.ssbwiki.com/Squirtle_(SSBU)')
     }
