@@ -10,9 +10,9 @@ client.on('ready', () => {
 client.on('message', async message => {
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
-    
-// Fighters	
-	
+
+// Fighters
+
     if (command === 'mario') {
 	message.reply('https://www.ssbwiki.com/Mario_(SSBU)')
     }
@@ -612,7 +612,7 @@ client.on('message', async message => {
     }
     if (command === 'moon') {
 	message.reply('https://www.ssbwiki.com/Moon')
-    }	
+    }
     if (message.content === '!ssb mother brain') {
 	message.reply('https://www.ssbwiki.com/Mother_Brain')
     }
@@ -654,7 +654,7 @@ client.on('message', async message => {
     }
     if (message.content === '!ssb samurai goroh') {
 	message.reply('https://www.ssbwiki.com/Samurai_Goroh')
-    }	      
+    }
     if (message.content === '!ssb shadow the hedgehog') {
 	message.reply('https://www.ssbwiki.com/Shadow_the_Hedgehog')
     }
@@ -663,7 +663,7 @@ client.on('message', async message => {
     }
     if (command === 'sheriff') {
 	message.reply('https://www.ssbwiki.com/Sheriff')
-    }	   
+    }
     if (message.content === '!ssb shovel knight') {
 	message.reply('https://www.ssbwiki.com/Shovel_Knight')
     }
@@ -678,7 +678,7 @@ client.on('message', async message => {
     }
     if (message.content === '!ssb callie and marie') {
 	message.reply('https://www.ssbwiki.com/Squid_Sisters')
-    }		    
+    }
     if (message.content === '!ssb callie & marie') {
 	message.reply('https://www.ssbwiki.com/Squid_Sisters')
     }
@@ -702,7 +702,7 @@ client.on('message', async message => {
     }
     if (command === 'thwomp') {
 	message.reply('https://www.ssbwiki.com/Thwomp')
-    }		   
+    }
     if (command === 'vince') {
 	message.reply('https://www.ssbwiki.com/Vince')
     }
@@ -726,10 +726,10 @@ client.on('message', async message => {
     }
     if (message.content === '!ssb wily capsule') {
 	message.reply('https://www.ssbwiki.com/Dr._Wily')
-    }		     
+    }
     if (message.content === '!ssb dr. wily') {
 	message.reply('https://www.ssbwiki.com/Dr._Wily')
-    }		      
+    }
     if (message.content === '!ssb dr wily') {
 	message.reply('https://www.ssbwiki.com/Dr._Wily')
     }
@@ -933,7 +933,7 @@ client.on('message', async message => {
     }
     if (message.content === "!ssb distant planet") {
 	message.reply('https://www.ssbwiki.com/Distant_Planet')
-    }	
+    }
     if (message.content === "!ssb frigate orpheon") {
 	message.reply('https://www.ssbwiki.com/Frigate_Orpheon')
     }
@@ -981,43 +981,43 @@ client.on('message', async message => {
     }
     if (message.content === "!ssb pirate ship") {
 	message.reply('https://www.ssbwiki.com/Pirate_Ship')
-    }	
+    }
     if (message.content === "!ssb pokemon stadium 2") {
 	message.reply('https://www.ssbwiki.com/Pokémon_Stadium_2')
-    }	
+    }
     if (message.content === "!ssb pokémon stadium 2") {
 	message.reply('https://www.ssbwiki.com/Pokémon_Stadium_2')
-    }	
+    }
     if (message.content === "!ssb pokemon stadium II") {
 	message.reply('https://www.ssbwiki.com/Pokémon_Stadium_2')
-    }	
+    }
     if (message.content === "!ssb pokémon stadium II") {
 	message.reply('https://www.ssbwiki.com/Pokémon_Stadium_2')
     }
     if (message.content === "!ssb pokemon stadium ii") {
 	message.reply('https://www.ssbwiki.com/Pokémon_Stadium_2')
-    }	
+    }
     if (message.content === "!ssb pokémon stadium ii") {
 	message.reply('https://www.ssbwiki.com/Pokémon_Stadium_2')
-    }	
+    }
     if (message.content === "!ssb pokémon stadium two") {
 	message.reply('https://www.ssbwiki.com/Pokémon_Stadium_2')
-    }	
+    }
     if (message.content === "!ssb pokemon stadium two") {
 	message.reply('https://www.ssbwiki.com/Pokémon_Stadium_2')
-    }	
+    }
     if (message.content === "!ssb port town aero dive") {
 	message.reply('https://www.ssbwiki.com/Port_Town_Aero_Dive')
-    }	
+    }
     if (message.content === "!ssb port town aero drive") {
 	message.reply('https://www.ssbwiki.com/Port_Town_Aero_Dive')
-    }	
+    }
     if (message.content === "!ssb shadow moses island") {
 	message.reply('https://www.ssbwiki.com/Shadow_Moses_Island')
-    }	
+    }
     if (command === "skyworld") {
 	message.reply('https://www.ssbwiki.com/Skyworld')
-    }	
+    }
     if (command === "smashville") {
 	message.reply('https://www.ssbwiki.com/Smashville')
     }
@@ -1026,7 +1026,7 @@ client.on('message', async message => {
     }
     if (message.content === "!ssb spear pillar") {
 	message.reply('https://www.ssbwiki.com/Spear_Pillar')
-    }	
+    }
     if (command === "summit") {
 	message.reply('https://www.ssbwiki.com/Summit')
     }
@@ -1053,10 +1053,10 @@ client.on('message', async message => {
     }
     if (message.content === "!ssb boxing ring") {
 	message.reply('https://www.ssbwiki.com/Boxing_Ring')
-    }	
+    }
     if (message.content === "!ssb duck hunt (stage)") {
 	message.reply('https://www.ssbwiki.com/Duck_Hunt_(stage)')
-    }	
+    }
     if (message.content === "!ssb duck hunt stage") {
 	message.reply('https://www.ssbwiki.com/Duck_Hunt_(stage)')
     }
@@ -1068,139 +1068,139 @@ client.on('message', async message => {
     }
     if (message.content === "!ssb super mario maker") {
 	message.reply('https://www.ssbwiki.com/Super_Mario_Maker')
-    }	
+    }
     if (message.content === "!ssb suzaku castle") {
 	message.reply('https://www.ssbwiki.com/Suzaku_Castle')
-    }	
+    }
     if (message.content === "!ssb umbra clock tower") {
 	message.reply('https://www.ssbwiki.com/Umbra_Clock_Tower')
     }
     if (message.content === "!ssb wily castle") {
 	message.reply('https://www.ssbwiki.com/Wily_Castle')
-    }	
+    }
     if (message.content === "!ssb skull castle") {
 	message.reply('https://www.ssbwiki.com/Wily_Castle')
-    }	
+    }
     if (message.content === "!ssb 3d land") {
 	message.reply('https://www.ssbwiki.com/3D_Land')
-    }	
+    }
     if (message.content === "!ssb super mario 3d land") {
 	message.reply('https://www.ssbwiki.com/3D_Land')
-    }	
+    }
     if (message.content === "!ssb 3D land") {
 	message.reply('https://www.ssbwiki.com/3D_Land')
-    }	
+    }
     if (message.content === "!ssb super mario 3D land") {
 	message.reply('https://www.ssbwiki.com/3D_Land')
-    }	
+    }
     if (message.content === "!ssb arena ferox") {
 	message.reply('https://www.ssbwiki.com/Arena_Ferox')
     }
     if (message.content === "!ssb balloon fight") {
 	message.reply('https://www.ssbwiki.com/Balloon_Fight')
-    }	
+    }
     if (message.content === "!ssb dream land gb") {
 	message.reply('https://www.ssbwiki.com/Dream_Land_GB')
-    }	
+    }
     if (message.content === "!ssb dream land GB") {
 	message.reply('https://www.ssbwiki.com/Dream_Land_GB')
-    }	
+    }
     if (message.content === "!ssb dream land gameboy") {
 	message.reply('https://www.ssbwiki.com/Dream_Land_GB')
-    }	
+    }
     if (message.content === "!ssb find mii") {
 	message.reply('https://www.ssbwiki.com/Find_Mii')
-    }	
+    }
     if (message.content === "!ssb gerudo valley") {
 	message.reply('https://www.ssbwiki.com/Gerudo_Valley')
-    }	
+    }
     if (message.content === "!ssb golden plains") {
 	message.reply('https://www.ssbwiki.com/Golden_Plains')
-    }	
+    }
     if (message.content === "!ssb living room") {
 	message.reply('https://www.ssbwiki.com/Living_Room')
     }
     if (command === "!ssb magicant") {
 	message.reply('https://www.ssbwiki.com/Magicant')
-    }	
+    }
     if (message.content === "!ssb mute city SNES") {
 	message.reply('https://www.ssbwiki.com/Mute_City_SNES')
-    }	
+    }
     if (message.content === "!ssb mute city snes") {
 	message.reply('https://www.ssbwiki.com/Mute_City_SNES')
-    }	
+    }
     if (message.content === "!ssb mute city") {
 	message.reply('https://www.ssbwiki.com/Mute_City_SNES')
-    }	
+    }
     if (message.content === "!ssb paper mario") {
 	message.reply('https://www.ssbwiki.com/Paper_Mario')
-    }	
+    }
     if (message.content === "!ssb pictochat") {
 	message.reply('https://www.ssbwiki.com/PictoChat')
-    }	
+    }
     if (message.content === "!ssb pictochat 2") {
 	message.reply('https://www.ssbwiki.com/PictoChat_2')
     }
     if (message.content === "!ssb picto chat 2") {
 	message.reply('https://www.ssbwiki.com/PictoChat_2')
-    }	
+    }
     if (message.content === "!ssb pictochat two") {
 	message.reply('https://www.ssbwiki.com/PictoChat_2')
-    }	
+    }
     if (message.content === "!ssb picto chat two") {
 	message.reply('https://www.ssbwiki.com/PictoChat_2')
-    }	
+    }
     if (message.content === "!ssb prism tower") {
 	message.reply('https://www.ssbwiki.com/Prism_Tower')
-    }	
+    }
     if (message.content === "!ssb reset bomb forest") {
 	message.reply('https://www.ssbwiki.com/Reset_Bomb_Forest')
-    }	
+    }
     if (message.content === "!ssb spirit train") {
 	message.reply('https://www.ssbwiki.com/Spirit_Train')
-    }	
+    }
     if (message.content === "!ssb tomodachi life") {
 	message.reply('https://www.ssbwiki.com/Tomodachi_Life')
-    }	
+    }
     if (message.content === "!ssb tortimer island") {
 	message.reply('https://www.ssbwiki.com/Tortimer_Island')
-    }	
+    }
     if (message.content === "!ssb unova pokémon league") {
 	message.reply('https://www.ssbwiki.com/Unova_Pokémon_League')
-    }	
+    }
     if (message.content === "!ssb unova pokemon league") {
 	message.reply('https://www.ssbwiki.com/Unova_Pokémon_League')
-    }	
+    }
     if (command === "coliseum") {
 	message.reply('https://www.ssbwiki.com/Coliseum')
-    }	
+    }
     if (command === "gamer") {
 	message.reply('https://www.ssbwiki.com/Gamer')
-    }	
+    }
     if (message.content === "!ssb garden of hope") {
 	message.reply('https://www.ssbwiki.com/Garden_of_Hope')
     }
     if (message.content === "!ssb flat zone") {
 	message.reply('https://www.ssbwiki.com/Flat_Zone')
-    }	
+    }
     if (message.content === "!ssb flat zone 2") {
 	message.reply('https://www.ssbwiki.com/Flat_Zone_2')
-    }	
+    }
     if (message.content === "!ssb flat zone two") {
 	message.reply('https://www.ssbwiki.com/Flat_Zone_2')
-    }	
+    }
     if (message.content === "!ssb flat zone ii") {
 	message.reply('https://www.ssbwiki.com/Flat_Zone_2')
     }
     if (message.content === "!ssb flat zone II") {
 	message.reply('https://www.ssbwiki.com/Flat_Zone_2')
-    }	
+    }
     if (message.content === "!ssb flat zone x") {
 	message.reply('https://www.ssbwiki.com/Flat_Zone_X')
-    }	
+    }
     if (message.content === "!ssb flat zone X") {
 	message.reply('https://www.ssbwiki.com/Flat_Zone_X')
-    }	
+    }
     if (message.content === "!ssb kalos pokemon league") {
 	message.reply('https://www.ssbwiki.com/Kalos_Pokémon_League')
     }
@@ -1350,7 +1350,7 @@ client.on('message', async message => {
     }
     if (command === "miiverse") {
 	message.reply('https://www.ssbwiki.com/Miiverse')
-    }	
+    }
 });
 
-client.login(process.argv[2])
+client.login(process.env.GUINSSB_TOKEN)
